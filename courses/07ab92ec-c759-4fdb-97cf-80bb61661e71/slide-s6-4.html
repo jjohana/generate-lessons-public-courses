@@ -1112,13 +1112,22 @@ tr:nth-child(even):not(:first-child) td {
   border-color: rgba(12, 110, 130, 0.18);
 }
 
-.teaching-card strong {
+.teaching-card .teaching-card-title {
   display: block;
   margin-bottom: 8px;
   color: var(--accent-strong);
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.teaching-card p strong {
+  display: inline;
+  margin: 0;
+  color: var(--accent-strong);
+  font-size: inherit;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .teaching-card p {
@@ -1533,6 +1542,9 @@ html[data-embed="1"] .review-card {
       <h2>AERONEFS ATA 24</h2>
       <p>Parcours épuré avec navigation et QCM.</p>
       <nav>
+        
+        <a class="sidebar-action" href="../../index.html">Catalogue des cours</a>
+        
         
         
         <a class="sidebar-action" href="index.html">Sommaire</a>
@@ -2046,6 +2058,9 @@ html[data-embed="1"] .review-card {
         </div>
         <div class="toolbar-actions">
           
+          <a class="nav-link" href="../../index.html">Catalogue</a>
+          
+          
           <a class="nav-link" href="s6-4.html">Précédent</a>
           
           
@@ -2234,7 +2249,7 @@ html[data-embed="1"] .review-card {
         if (question.learning_objective) {
           cards.push(
             "<article class='teaching-card'>" +
-              "<strong>Objectif de la question</strong>" +
+              "<strong class='teaching-card-title'>Objectif de la question</strong>" +
               "<p>" + formatRichText(question.learning_objective) + "</p>" +
             "</article>"
           );
@@ -2242,7 +2257,7 @@ html[data-embed="1"] .review-card {
         if (question.correction_summary) {
           cards.push(
             "<article class='teaching-card emphasis'>" +
-              "<strong>Pourquoi cette correction</strong>" +
+              "<strong class='teaching-card-title'>Pourquoi cette correction</strong>" +
               "<p>" + formatRichText(question.correction_summary) + "</p>" +
             "</article>"
           );
@@ -2250,7 +2265,7 @@ html[data-embed="1"] .review-card {
         if (question.course_clarification) {
           cards.push(
             "<article class='teaching-card'>" +
-              "<strong>A retenir du cours</strong>" +
+              "<strong class='teaching-card-title'>A retenir du cours</strong>" +
               "<p>" + formatRichText(question.course_clarification) + "</p>" +
             "</article>"
           );

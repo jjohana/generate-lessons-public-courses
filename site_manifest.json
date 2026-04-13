@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-13T11:53:33.919497+00:00",
+  "generated_at": "2026-04-13T14:58:07.739387+00:00",
   "course_count": 3,
-  "total_size_bytes": 65376918,
+  "total_size_bytes": 65426606,
   "courses": [
     {
       "course_id": "3166d55f-5966-465f-9840-2610d900a245",
@@ -13,7 +13,7 @@
       "page_count": 41,
       "slide_count": 20,
       "quiz_count": 21,
-      "size_bytes": 17923619
+      "size_bytes": 17931851
     },
     {
       "course_id": "07ab92ec-c759-4fdb-97cf-80bb61661e71",
@@ -25,7 +25,7 @@
       "page_count": 61,
       "slide_count": 30,
       "quiz_count": 31,
-      "size_bytes": 29123668
+      "size_bytes": 29149514
     },
     {
       "course_id": "905e6ea3-c8bc-45c6-ba80-dce3aa90712a",
@@ -37,7 +37,7 @@
       "page_count": 37,
       "slide_count": 20,
       "quiz_count": 17,
-      "size_bytes": 18329631
+      "size_bytes": 18345241
     }
   ]
 }
