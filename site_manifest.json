@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T23:13:19.990235+00:00",
+  "generated_at": "2026-04-22T23:41:27.848413+00:00",
   "course_count": 4,
-  "total_size_bytes": 124793808,
+  "total_size_bytes": 124794442,
   "courses": [
     {
       "course_id": "d20aaea5-04e7-4ef7-bd1c-0070ffa29691",
@@ -13,7 +13,7 @@
       "page_count": 61,
       "slide_count": 30,
       "quiz_count": 31,
-      "size_bytes": 59367507
+      "size_bytes": 59368141
     },
     {
       "course_id": "3166d55f-5966-465f-9840-2610d900a245",
