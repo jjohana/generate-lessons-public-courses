@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-04-14T16:31:22.011866+00:00",
-  "course_count": 3,
-  "total_size_bytes": 65426301,
+  "generated_at": "2026-04-22T23:13:19.990235+00:00",
+  "course_count": 4,
+  "total_size_bytes": 124793808,
   "courses": [
+    {
+      "course_id": "d20aaea5-04e7-4ef7-bd1c-0070ffa29691",
+      "title": "Cours 8 du 13 janvier 2026_filigrane + 2 docs",
+      "source_filename": "Cours 8 du 13 janvier 2026_filigrane.pdf + 2 autres documents",
+      "created_at": "2026-04-22T22:28:38.028963",
+      "href": "courses/d20aaea5-04e7-4ef7-bd1c-0070ffa29691/index.html",
+      "deck_href": "courses/d20aaea5-04e7-4ef7-bd1c-0070ffa29691/deck.html",
+      "page_count": 61,
+      "slide_count": 30,
+      "quiz_count": 31,
+      "size_bytes": 59367507
+    },
     {
       "course_id": "3166d55f-5966-465f-9840-2610d900a245",
       "title": "Cinematique_BTS_Aero",
